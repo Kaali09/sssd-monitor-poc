@@ -14,7 +14,7 @@ jobs:
         run: echo Hello, world!
 
   docker:
-    uses: kaali09/test-github-action/.github/workflows/reusable.yaml
+    uses: kaali09/test-github-action/.github/workflows/reusable.yaml@debug
     with:
       image_name: my-awesome-app
       tag: $GITHUB_RUN_NUMBER
